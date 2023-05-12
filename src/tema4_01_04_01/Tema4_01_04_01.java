@@ -2,8 +2,14 @@ package tema4_01_04_01;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Carmelo
+ */
+
 public class Tema4_01_04_01 {
 
+ 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -55,6 +61,12 @@ public class Tema4_01_04_01 {
         }
     }
 
+    /**
+     * Recibe un array y rota N posiciones a la derecha.
+     *
+     * @param array - El array que se quiere rotar.
+     * @param numPosiciones - El numero de posiciones que se van a rotar.
+     */
     public static void rotarDerechaN(int[] array, int numPosiciones) {
         int ultimaPosicion = 0;
         int contador = numPosiciones;
@@ -73,6 +85,13 @@ public class Tema4_01_04_01 {
 
     }
 
+    /**
+     * Recibe un array y rota N posiciones a la izquierda.
+     *
+     * @param array - El array que se quiere rotar.
+     * @param numPosiciones - El numero de posiciones que se van a rotar.
+     * 
+     */
     public static void rotarIzquierdaN(int[] array, int numPosiciones) {
         int primeraPosicion = 0;
         int contador = numPosiciones;
@@ -93,5 +112,3 @@ public class Tema4_01_04_01 {
     }
 
 }
-
-
